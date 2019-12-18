@@ -100,3 +100,7 @@ for (i = 0; i < 2; i++) {
     playerTwoBoard[yPos + i][xPos] = "B";
 }
 }
+let xPos = Math.floor(Math.random() * 3);
+document.write("P1 Ship A: x:" + xPos + " ")
+let yPos = Math.floor(Math.random() * 3);
+document.write("y:" + yPos)
