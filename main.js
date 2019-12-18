@@ -140,3 +140,8 @@ if (shipsA == 0) {
     console.log("Congratulations Player two! You won! All ships are sunk!!");
 }
 
+if (shipsA == 0) {
+    console.log("Congratulations Player one! You won! All ships are sunk!!");
+} else if (shipsB == 0) {
+    console.log("Congratulations Player two! You won! All ships are sunk!!");
+}
